@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Sol Defense Corps',
+  title: 'SOL DEFENSE CORPS',
   author: 'Tony Geiser',
   headerTitle: 'SDC',
   description: 'The journal of military science fiction',
