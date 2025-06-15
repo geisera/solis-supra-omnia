@@ -47,7 +47,6 @@ const Header = () => {
         <MobileNav />
       </div>
     </header>
-    <div>{siteMetadata.description}</div>
   )
 }
 
