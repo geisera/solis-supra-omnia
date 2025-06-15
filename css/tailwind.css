@@ -76,6 +76,16 @@
     border-radius: var(--radius-sm);
     outline-color: var(--color-primary-500);
   }
+
+    a,
+  button {
+    outline-color: red;
+  }
+
+  header, h1 {
+    font-family: var(--font-orbitron);
+    color: var(--color-yellow-600);
+  }
 }
 
 @layer utilities {
