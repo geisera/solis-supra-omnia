@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://soldefensecorps.com">
-            <div className="text-yellow-600"><em>Solis Supra Omnia!</em></div>
+            <div><em>Solis Supra Omnia!</em></div>
           </Link>
         </div>
       </div>
