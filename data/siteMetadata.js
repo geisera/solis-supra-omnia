@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'SDC',
   author: 'Tony Geiser',
-  headerTitle: 'SDC',
+  headerTitle: 'SOL DEFENSE CORPS',
   description: 'The journal of military science fiction',
   language: 'en-us',
   theme: 'system', // system, dark or light
