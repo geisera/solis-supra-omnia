@@ -46,8 +46,8 @@ const Header = () => {
         <ThemeSwitch />
         <MobileNav />
       </div>
-      <div>{siteMetadata.description}</div>
     </header>
+    <div>{siteMetadata.description}</div>
   )
 }
 
