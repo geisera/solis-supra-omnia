@@ -11,7 +11,7 @@ export default function Example() {
             <h1 className="hidden h-6 text-3xl font-semibold sm:block">
               Sol Defense Corps
             </h1>
-            <h3 className="py-5 text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl sm:leading-10 md:text-2xl md:leading-14">
+            <h3 className="py-5 text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               The Journal of Military Science Fiction
             </h3>
             <p>Welcome to Sol Defense Corps! Your frontline outpost in the theater of military science fiction.</p>
