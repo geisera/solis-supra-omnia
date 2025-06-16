@@ -98,7 +98,7 @@
   }
 
   header,
-  h1 {
+  h1, h3 {
     font-family: var(--font-orbitron);
     color: var(--color-primary-500);
   }
