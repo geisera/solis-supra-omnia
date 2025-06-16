@@ -8,7 +8,7 @@ export default function Example() {
       <div className="relative isolate overflow-hidden">
         <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-10">
           <div className="px-6 lg:px-0 lg:pt-4">
-            <h1 className="py-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h1 className="py-5 text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
               Sol Defense Corps
             </h1>
             <h3 className="py-5 text-lg font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-2xl md:leading-14">
