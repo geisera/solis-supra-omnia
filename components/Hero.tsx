@@ -11,14 +11,16 @@ export default function Example() {
             <h1 className="py-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               The Journal of Military Science Fiction
             </h1>
-            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
               <ul>
                 <li> Books</li>
                 <li> Movies</li>
                 <li> Comics</li>
                 <li> and all things sci-fi!</li>
               </ul>
-            </p>
+            </p> */}
+            Welcome to Sol Defense Corps—your frontline outpost in the vast theater of military science fiction. Here, we marshal the latest battle reports from across the genre: hard-hitting novel reviews, strategic analyses of starship engagements, field briefs on cinematic arsenals, and debriefs on comics, games, and holo-media. Whether you’re a grizzled veteran of interstellar campaigns or a rookie cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with the precision of a rail-gun and the flair of a propaganda poster. Strap in, calibrate your targeting arrays, and prepare for a deep dive into the tactics, technology, and tactics of tomorrow’s wars—because at Sol Defense Corps, we don’t just report on military sci-fi, we fight for it.
+
           </div>
           <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div className="shadow-lg md:rounded-3xl">
