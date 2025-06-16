@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Example() {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
