@@ -1,6 +1,8 @@
+import Image from "./Image"
+
 export default function Example() {
-    const source = '/static/images/marine-with-flag.png'
-    const alt = 'Marine with flag'
+  const source = '/static/images/marine-with-flag.png'
+  const alt = 'Marine with flag'
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="relative isolate overflow-hidden">
