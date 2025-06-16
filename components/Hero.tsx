@@ -1,4 +1,6 @@
 export default function Example() {
+    const source = '/static/images/marine-with-flag.png'
+    const alt = 'Marine with flag'
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="relative isolate overflow-hidden">
@@ -23,7 +25,7 @@ export default function Example() {
                   className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                   aria-hidden="true"
                 />
-                <Image src="\static\images\marine-with-flag.png" alt="Marine with flag" />
+                <Image src={source} alt={alt} />
 
                 {/* <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
                   <div className="mx-auto max-w-2xl md:mx-0 md:max-w-none">
