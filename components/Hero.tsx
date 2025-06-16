@@ -24,15 +24,14 @@ export default function Example() {
             </p> */}
             <p>Welcome to Sol Defense Corps—your frontline outpost in the theater of military science fiction.</p>
             <br />
-            <p>Here, we marshal the latest battle reports from across the genre: hard-hitting novel reviews, strategic analyses of video game starship engagements, intel reports on cinematic arsenals, and debriefs on comics, games, and holo-media.</p>
+            <p>Here, we review the latest novels, video games, movies, comics and holo-media.</p>
             <br />
-            <p> Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with lase precision.</p>
+            <p> Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with laser precision.</p>
             <br />
             <p>Strap in, calibrate your targeting arrays, and prepare for a deep dive into the tactics, technology, and terrain of today's best science fiction.</p>
           </div>
           <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div className="shadow-lg md:rounded-3xl">
-              <div className="bg-indigo-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
                 {/* <div
                   className="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
                   aria-hidden="true"
@@ -58,7 +57,6 @@ export default function Example() {
                     </div>
                   </div>
                 </div> */}
-              </div>
             </div>
           </div>
         </div>
