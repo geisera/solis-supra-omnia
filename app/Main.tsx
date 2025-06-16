@@ -9,16 +9,16 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="dark:divide-primary-700 divide-y divide-gray-200">
+      <div className="divide-y divide-gray-200 dark:divide-yellow-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="dark:text-primary-600 text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-yellow-600">
             Latest Intel
           </h1>
-          <p className="dark:text-primary-400 text-lg leading-7 text-gray-500">
+          <p className="text-lg leading-7 text-gray-500 dark:text-yellow-400">
             {siteMetadata.description}
           </p>
         </div>
-        <ul className="dark:divide-primary-700 divide-y divide-gray-200">
+        <ul className="divide-y divide-gray-200 dark:divide-yellow-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post
@@ -28,7 +28,7 @@ export default function Home({ posts }) {
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
-                      <dd className="dark:text-primary-400 text-base leading-6 font-medium text-gray-500">
+                      <dd className="text-base leading-6 font-medium text-gray-500 dark:text-yellow-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                     </dl>
@@ -38,7 +38,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl leading-8 font-bold tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="dark:text-primary-100 text-gray-900"
+                              className="text-gray-900 dark:text-yellow-100"
                             >
                               {title}
                             </Link>
@@ -49,14 +49,14 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="prose dark:text-primary-400 max-w-none text-gray-500">
+                        <div className="prose max-w-none text-gray-500 dark:text-yellow-400">
                           {summary}
                         </div>
                       </div>
                       <div className="text-base leading-6 font-medium">
                         <Link
                           href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          className="text-yellow-500 hover:text-yellow-600 dark:hover:text-yellow-400"
                           aria-label={`Read more: "${title}"`}
                         >
                           Read more &rarr;
@@ -74,7 +74,7 @@ export default function Home({ posts }) {
         <div className="flex justify-end text-base leading-6 font-medium">
           <Link
             href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="text-yellow-500 hover:text-yellow-600 dark:hover:text-yellow-400"
             aria-label="All posts"
           >
             All Posts &rarr;
