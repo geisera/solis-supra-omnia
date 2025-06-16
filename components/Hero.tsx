@@ -11,7 +11,7 @@ export default function Example() {
             <h1 className="py-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Sol Defense Corps
             </h1>
-            <h3 className="py-5 text-lg font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-6xl md:leading-14">
+            <h3 className="py-5 text-lg font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-lg md:leading-14">
               The Journal of Military Science Fiction
             </h3>
             {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
