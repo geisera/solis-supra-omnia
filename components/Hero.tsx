@@ -20,7 +20,9 @@ export default function Example() {
             <br />
             <p> Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with laser precision.</p>
             <br />
-            <p>Strap in, calibrate your targeting arrays, and prepare for a deep dive into the tactics, technology, and terrain of today's best science fiction.</p>
+            <p>Welcome to the fight.</p>
+            <br />
+            <p>Solis Supra Omnia!</p>
           </div>
           <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div className="shadow-lg md:rounded-3xl">
