@@ -6,7 +6,7 @@ import NewsletterForm from 'pliny/ui/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
-export default function Page({ posts }) {
+export default function Page({ posts }): any {
   return (
     <>
       <div className="dark:divide-primary-200 divide-y divide-gray-200">
