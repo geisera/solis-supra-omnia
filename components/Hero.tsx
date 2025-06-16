@@ -21,7 +21,9 @@ export default function Example() {
             </p> */}
             <p>Welcome to Sol Defense Corps—your frontline outpost in the vast theater of military science fiction.</p>
             <br />
-            <p>Here, we marshal the latest battle reports from across the genre: hard-hitting novel reviews, strategic analyses of starship engagements, field briefs on cinematic arsenals, and debriefs on comics, games, and holo-media. Whether you’re a grizzled veteran of interstellar campaigns or a rookie cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with the precision of a rail-gun and the flair of a propaganda poster.</p>
+            <p>Here, we marshal the latest battle reports from across the genre: hard-hitting novel reviews, strategic analyses of starship engagements, field briefs on cinematic arsenals, and debriefs on comics, games, and holo-media.</p>
+            <br />
+            <p> Whether you’re a grizzled veteran of interstellar campaigns or a rookie cadet hungry for your first taste of powered armor lore, SDC delivers mission-critical intel with the precision of a rail-gun and the flair of a propaganda poster.</p>
             <br />
             <p>Strap in, calibrate your targeting arrays, and prepare for a deep dive into the tactics, technology, and tactics of tomorrow’s wars—because at Sol Defense Corps, we don’t just report on military sci-fi, we fight for it.</p>
           </div>
