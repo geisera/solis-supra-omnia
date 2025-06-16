@@ -13,14 +13,13 @@ const siteMetadata = {
   mastodon: '',
   email: 'address@yoursite.com',
   x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
-  stickyNav: false,
+  stickyNav: true,
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
