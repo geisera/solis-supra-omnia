@@ -14,7 +14,7 @@ export default function Home({ posts }) {
         <Hero />
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-200">
-            Latest Intel
+            SDC: Latest Intel
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-300">
             {siteMetadata.description}
