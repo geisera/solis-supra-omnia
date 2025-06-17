@@ -9,7 +9,7 @@ export default function Example() {
         <div className="mx-auto max-w-7xl pt-10 pb-24 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-10">
           <div className="px-6 lg:px-0 lg:pt-4">
             <h1 className="hidden h-6 text-4xl font-semibold sm:block">Sol Defense Corps</h1>
-            <h3 className="py-5 text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10 md:text-3xl md:leading-14 dark:text-gray-100">
+            <h3 className="py-5 text-3xl leading-0 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10 md:text-3xl md:leading-14 dark:text-gray-100">
               The Journal of Military Science Fiction
             </h3>
             <p>
