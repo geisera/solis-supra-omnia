@@ -20,7 +20,7 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
         </div>
-        xxxx
+
         <ul className="dark:divide-primary-200 divide-y divide-gray-200">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
