@@ -18,8 +18,8 @@ export default function Example() {
             </p>
             <br />
             <p>
-              Here, we review the latest (<em>and the classics too</em>) novels, video games,
-              movies, comics and holo-media.
+              Here, we review the classics and latest novels, video games, movies, comics and
+              holo-media.
             </p>
             <br />
             <p>
