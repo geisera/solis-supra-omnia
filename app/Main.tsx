@@ -16,9 +16,9 @@ export default function Home({ posts }) {
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-200">
             SDC: Latest Intel
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-300">
+          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-300">
             {siteMetadata.description}
-          </p>
+          </p> */}
         </div>
 
         <ul className="dark:divide-primary-200 divide-y divide-gray-200">
