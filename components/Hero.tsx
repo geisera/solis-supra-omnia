@@ -77,23 +77,22 @@ export default function Example() {
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
           fugiat veniam occaecat fugiat.
         </p>
-         <p>
+         <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
           Welcome to Sol Defense Corps! Your frontline outpost in the theater of military
           science fiction.
         </p>
         <br />
-        <p>Here, we review the latest novels, video games, movies, comics and holo-media.</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Here, we review the latest novels, video games, movies, comics and holo-media.</p>
         <br />
-        <p>
-          {' '}
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
           Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet
           hungry for your first taste of powered armor combat, SDC delivers mission-critical
           intel with laser precision.
         </p>
         <br />
-        <p>Welcome to the fight.</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Welcome to the fight.</p>
         <br />
-          <p>Solis Supra Omnia!</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Solis Supra Omnia!</p>
       </div>
     </div>
 
