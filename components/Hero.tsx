@@ -38,14 +38,6 @@ export default function Example() {
           science fiction.
         </p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Here, we review the latest novels, video games, movies, comics and holo-media.</p>
-        <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
-          Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet
-          hungry for your first taste of powered armor combat, SDC delivers mission-critical
-          intel with laser precision.
-        </p>
-        <br />
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Welcome to the fight.</p>
         <br />
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Solis Supra Omnia!</p>
