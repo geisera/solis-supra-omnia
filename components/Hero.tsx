@@ -73,26 +73,22 @@ export default function Example() {
       </div>
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">SOL DEFENSE CORPS</h2>
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-          fugiat veniam occaecat fugiat.
-        </p>
-         <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
+         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Welcome to Sol Defense Corps! Your frontline outpost in the theater of military
           science fiction.
         </p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Here, we review the latest novels, video games, movies, comics and holo-media.</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Here, we review the latest novels, video games, movies, comics and holo-media.</p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet
           hungry for your first taste of powered armor combat, SDC delivers mission-critical
           intel with laser precision.
         </p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Welcome to the fight.</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Welcome to the fight.</p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Solis Supra Omnia!</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Solis Supra Omnia!</p>
       </div>
     </div>
 
