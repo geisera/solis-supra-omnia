@@ -72,13 +72,34 @@ export default function Example() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Support center</h2>
+        <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">SOL DEFENSE CORPS</h2>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
           fugiat veniam occaecat fugiat.
         </p>
+         <p>
+          Welcome to Sol Defense Corps! Your frontline outpost in the theater of military
+          science fiction.
+        </p>
+        <br />
+        <p>Here, we review the latest novels, video games, movies, comics and holo-media.</p>
+        <br />
+        <p>
+          {' '}
+          Whether you’re a grizzled veteran of interstellar campaigns or a butter-bar cadet
+          hungry for your first taste of powered armor combat, SDC delivers mission-critical
+          intel with laser precision.
+        </p>
+        <br />
+        <p>Welcome to the fight.</p>
+        <br />
+          <p>Solis Supra Omnia!</p>
       </div>
     </div>
 
   )
 }
+
+
+
+        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
