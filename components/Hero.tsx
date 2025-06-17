@@ -17,10 +17,7 @@ export default function Example() {
               science fiction.
             </p>
             <br />
-            <p>
-              Here, we review the classics and latest novels, video games, movies, comics and
-              holo-media.
-            </p>
+            <p>Here, we review the latest novels, video games, movies, comics and holo-media.</p>
             <br />
             <p>
               {' '}
