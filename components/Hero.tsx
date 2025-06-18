@@ -36,11 +36,9 @@ export default function Example() {
           Welcome to Sol Defense Corps! Your frontline outpost in the theater of military science
           fiction.
         </p>
-        -
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Welcome to the fight.
         </p>
-        -
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           <em>Solis Supra Omnia!</em>
         </p>
