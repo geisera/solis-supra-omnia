@@ -9,6 +9,7 @@ const projectsData: Project[] = [
   {
     title: 'Another Bug Hunt',
     description: ``,
+    imgSrc: '/static/images/bug-hunt.png',
     href: 'https://soldefensecorps.com',
   },
 ]
