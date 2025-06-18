@@ -4,9 +4,8 @@ export default function Example() {
   const source = '/static/images/space-marine-bug-hunt.png'
   const alt = 'Marine with flag'
   return (
-  
     <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
-      <Image src={source} alt={alt} className="absolute inset-0 -z-10 size-full object-cover"/>
+      <Image src={source} alt={alt} className="absolute inset-0 -z-10 size-full object-cover" />
       <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -33,16 +32,19 @@ export default function Example() {
       </div>
       <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">SOL DEFENSE CORPS</h1>
-         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
-          Welcome to Sol Defense Corps! Your frontline outpost in the theater of military
-          science fiction.
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
+          Welcome to Sol Defense Corps! Your frontline outpost in the theater of military science
+          fiction.
         </p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Welcome to the fight.</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
+          Welcome to the fight.
+        </p>
         <br />
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">Solis Supra Omnia!</p>
+        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
+          <em>Solis Supra Omnia!</em>
+        </p>
       </div>
     </div>
-
   )
 }
