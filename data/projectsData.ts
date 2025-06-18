@@ -16,8 +16,8 @@ const projectsData: Project[] = [
     Their acid spits smarter, their claws strike faster—and every fallen comrade turns the margin for error to zero. 
     To succeed, she must confront the horror that made her a widow, master a weapon she barely understands, and choose between vengeance and the spark of hope she carries for humanity’s survival.
     Brace for relentless action, ruthless tactics, and a final showdown where only one species walks away. Another Bug Hunt: join the fight, pray you live long enough to tell the tale.`,
-    imgSrc: '/static/images/google.png',
-    href: './public/static/images/bug-hunt.png',
+    imgSrc: '/static/images/bug-hunt.png',
+    href: 'https://soldefensecorps.com',
   },
 ]
 
