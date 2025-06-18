@@ -8,9 +8,9 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: 'Another Bug Hunt',
-    description: `When the frontier world of Overby Station falls silent, Captain Tris Rourke volunteers for a mission nobody else will touch—brave the alien hives and rescue the colonists. 
+    description: `When Kestrel Station’s comms go dark and her crew lies butchered, Captain Tessa Rourke volunteers for a mission nobody else will touch—hunt down the alien hives responsible. 
     Armed with experimental combat armor, a crack squad of misfits, and a dwindling supply of patience, she crashes into the swarm’s darkest lair. 
-    <br />
+    
     No reinforcements. No backup plan. Just blaster fire and guts.
     As Rourke pushes deeper into the tunnels, the bugs adapt. 
     Their acid spits smarter, their claws strike faster—and every fallen comrade turns the margin for error to zero. 
