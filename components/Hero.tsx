@@ -31,7 +31,9 @@ export default function Example() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">SOL DEFENSE CORPS</h1>
+        <h1 className="text-5xl font-semibold tracking-tight drop-shadow-2xl sm:text-7xl">
+          SOL DEFENSE CORPS
+        </h1>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Welcome to Sol Defense Corps! Your frontline outpost in the theater of military science
           fiction.
