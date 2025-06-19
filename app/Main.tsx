@@ -14,7 +14,7 @@ export default function Home({ posts }) {
         <Hero />
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-200">
-            Latest Intel
+            LATEST INTEL
           </h1>
           {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-300">
             {siteMetadata.description}
@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <ul className="dark:divide-primary-200 divide-y divide-gray-200">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary, tags } = post
+            const { slug, date, title, summary, tags, authors } = post
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -34,6 +34,7 @@ export default function Home({ posts }) {
                       <dd className="dark:text-primary-400 text-base leading-6 font-medium text-gray-500">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
+                      <dd>{authors}</dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">

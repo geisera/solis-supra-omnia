@@ -5,7 +5,13 @@ export default function Example() {
   const alt = 'Marine with flag'
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
-      <Image src={source} alt={alt} className="absolute inset-0 -z-10 size-full object-cover" />
+      <Image
+        src={source}
+        alt={alt}
+        width="400"
+        height="800"
+        className="absolute inset-0 -z-10 size-full object-cover"
+      />
       <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -41,7 +47,7 @@ export default function Example() {
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Welcome to the fight.
         </p>
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
+        <p className="text-primary-500 mt-8 text-lg font-medium text-pretty sm:text-xl/8">
           <em>Solis Supra Omnia!</em>
         </p>
       </div>
