@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <ul className="dark:divide-primary-200 divide-y divide-gray-200">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary, tags, authors } = post
+            const { slug, date, title, images, summary, tags, authors } = post
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -42,7 +42,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl leading-8 font-bold tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="hover:text-primary-500 dark:hover:text-primary-400 text-gray-900 transition-colors duration-200 dark:text-gray-100"
                             >
                               {title}
                             </Link>
@@ -54,6 +54,11 @@ export default function Home({ posts }) {
                           </div>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-300">
+                          <img
+                            src={images}
+                            alt="…"
+                            className="float-left mr-4 mb-2 h-48 w-30 object-cover shadow-sm"
+                          />
                           {summary}
                         </div>
                       </div>
