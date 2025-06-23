@@ -1,11 +1,11 @@
 {
-  "dropships": 1,
-  "real-science": 1,
-  "lasers": 1,
   "books": 3,
   "fleet": 3,
+  "real-science": 1,
+  "lasers": 1,
   "first-command": 1,
   "leadership": 1,
   "space-marine": 1,
-  "classic": 1
+  "classic": 1,
+  "dropships": 1
 }
