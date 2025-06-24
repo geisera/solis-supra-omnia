@@ -54,11 +54,16 @@ export default function Home({ posts }) {
                           </div>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-300">
-                          <img
-                            src={images}
-                            alt="…"
-                            className="float-left mr-4 mb-2 h-48 w-30 object-cover shadow-sm"
-                          />
+                          <Link
+                            href={`/blog/${slug}`}
+                            className="hover:text-primary-500 dark:hover:text-primary-400 text-gray-900 transition-colors duration-200 dark:text-gray-100"
+                          >
+                            <img
+                              src={images}
+                              alt="…"
+                              className="float-left mt-2 mr-4 mb-2 h-48 w-30 object-cover shadow-sm"
+                            />
+                          </Link>
                           {summary}
                         </div>
                       </div>
