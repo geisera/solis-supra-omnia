@@ -34,7 +34,18 @@ export default function Home({ posts }) {
                       <dd className="dark:text-primary-400 text-base leading-6 font-medium text-gray-500">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
-                      <dd>{authors}</dd>
+                      <dd>
+                        <Link
+                          href={`/blog/${slug}`}
+                          className="hover:text-primary-500 dark:hover:text-primary-400 text-gray-900 transition-colors duration-200 dark:text-gray-100"
+                        >
+                          <img
+                            src={images}
+                            alt="…"
+                            className="float-left mt-2 mr-4 mb-2 h-48 w-30 object-cover shadow-sm"
+                          />
+                        </Link>
+                      </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
@@ -54,7 +65,7 @@ export default function Home({ posts }) {
                           </div>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-300">
-                          <Link
+                          {/* <Link
                             href={`/blog/${slug}`}
                             className="hover:text-primary-500 dark:hover:text-primary-400 text-gray-900 transition-colors duration-200 dark:text-gray-100"
                           >
@@ -63,7 +74,7 @@ export default function Home({ posts }) {
                               alt="…"
                               className="float-left mt-2 mr-4 mb-2 h-48 w-30 object-cover shadow-sm"
                             />
-                          </Link>
+                          </Link> */}
                           {summary}
                         </div>
                       </div>
