@@ -1,11 +1,17 @@
 {
+  "essay": 2,
+  "tanks": 1,
+  "power-armor": 1,
+  "mechs": 1,
+  "books": 4,
+  "fleet": 4,
+  "space-marine": 2,
+  "reviews": 4,
   "dropships": 1,
   "real-science": 1,
   "lasers": 1,
-  "books": 3,
-  "fleet": 3,
+  "against-all-odds": 1,
   "first-command": 1,
   "leadership": 1,
-  "space-marine": 1,
   "classic": 1
 }
