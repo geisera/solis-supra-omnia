@@ -41,7 +41,7 @@ export default function Example() {
           SOL DEFENSE CORPS
         </h1>
         <h3 className="mt-8 text-2xl font-medium text-pretty text-gray-200 sm:text-xl/8">
-          Welcome to Sol Defense Corps! The journal of military science fiction.
+          The journal of military science fiction.
         </h3>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
           Welcome to the fight.
